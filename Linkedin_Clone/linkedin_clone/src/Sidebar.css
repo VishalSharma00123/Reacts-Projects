@@ -1,0 +1,96 @@
+.sidbar__accountCircleIcon {
+  color: gray;
+  margin: 10px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 80px;
+  flex: 0.2;
+  height: fit-content;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sidebar__top {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.sidebar__top > img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  margin-bottom: -24px;
+}
+
+.sidebar__top > h4 {
+  color: gray;
+  font-size: 13px;
+}
+
+.sidebar__top > h3 {
+}
+
+.sidebar__stats {
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+}
+.sidebar__stat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.sidebar__stat > p {
+  font-size: 13px;
+  font-weight: 600;
+  color: gray;
+}
+.sidebar__stateNumber {
+  font-weight: bold;
+  color: #0a66c2 !important;
+}
+
+.sidebar__bottom {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+}
+.sidebar__bottom {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.sidebar__recentItem {
+  display: flex;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.sidebar__recentItem:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+.sidebar__hash {
+  margin-right: 10px;
+  margin-left: 5px;
+}
