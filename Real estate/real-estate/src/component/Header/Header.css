@@ -5,9 +5,9 @@
   padding-bottom: 1rem;
   color: var(--secondary);
   gap: 24rem;
+  margin-left: 13rem;
 }
 .h-wrapper {
-  background: var(--black);
   color: white;
 }
 
